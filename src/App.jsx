@@ -1,17 +1,13 @@
-import React, { useState } from 'react'
-import Card from './Component/Card'
-const App = () => {
-  let obj = {
-    name: "ravi",
-    value:12,
-  }
-  return (
-    <div>
-      
-      <Card username="chai our code" obj1={ obj} btnText="click" />
-      <Card/>
+ import React from 'react'
+import Card from './Component/Card';
+ const App = () => {
+   return (
+     <div>
+       <Card name="Card" btn="Close" />
+        <Card name="Main-card" btn="submit"/>
+        <Card name="Container-card" btn="Click Me"/>
      </div>
-  )
-}
-
-export default App
+   )
+ }
+ 
+ export default App
